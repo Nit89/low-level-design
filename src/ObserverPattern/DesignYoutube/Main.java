@@ -5,8 +5,8 @@ public class Main {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
        YoutubeChannel channel = new YoutubeChannel();
-       subscriber aman = new subscriber();
+       subscriber aman = new subscriber("aman");
        channel.subscribe(aman);
-       channel.notifyObservers();
+       channel.notifyObservers("java video ");
     }
 }

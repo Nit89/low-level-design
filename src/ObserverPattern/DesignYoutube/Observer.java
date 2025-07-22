@@ -1,5 +1,7 @@
 package ObserverPattern.DesignYoutube;
 
 public interface Observer {
-    void  notified();
+
+
+    void  notified(String title);
 }
